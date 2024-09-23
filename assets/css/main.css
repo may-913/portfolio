@@ -10,11 +10,12 @@
 	--blue: #2ea4ff;
 	--periwinkle: #006aff;
 	--indigo: #1928ce;
-	--navy: #002368;
+	--navy: #000950;
 	--white: #f7f1ff;
 	--deep-navy: #0b1448;
 	--dark-teal: #0d7052;
 	--bright-green: #5dffbb;
+	--blue-gray: #584d8f;
 
 }
 /* fonts */
@@ -3276,7 +3277,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #319a85;
 		}
 
 		.wrapper.style3-alt {
@@ -3544,7 +3545,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: var(--navy);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3781,7 +3782,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: var(--blue-gray);
 			}
 
 			#sidebar nav a:after {
