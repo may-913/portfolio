@@ -95,7 +95,7 @@ input, select, textarea {
 .profile-photo {
     position: absolute; /* Position it relative to the parent container */
     bottom: 20px; /* Adjust as needed */
-    right: 60px; /* Adjust as needed */
+    right: 50px; /* Adjust as needed */
     width: 150px; /* Set a size for your image */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: make it circular */
@@ -3922,6 +3922,7 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25em;
+			padding: 0 0
 		}
 
 			@media screen and (max-width: 980px) {
