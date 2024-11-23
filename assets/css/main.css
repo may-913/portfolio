@@ -90,6 +90,25 @@ input, select, textarea {
 	font-family: 
 } */
 
+/* home pic of me */
+
+.profile-photo {
+    position: absolute; /* Position it relative to the parent container */
+    bottom: 20px; /* Adjust as needed */
+    right: 60px; /* Adjust as needed */
+    width: 150px; /* Set a size for your image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: make it circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}
+
+/* Ensure the parent div is positioned relatively */
+#intro {
+    position: relative;
+}
+
+
+
 /* Basic */
 
 	@-ms-viewport {
