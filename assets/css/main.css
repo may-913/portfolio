@@ -86,9 +86,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* #meagan {
-	font-family: 
-} */
 
 /* home pic of me */
 
@@ -97,6 +94,7 @@ input, select, textarea {
 	left: 50px;
     width: 200px; /* Matches profile-photo size */
     height: 200px; /* Matches profile-photo size */
+	transition: opacity 0.15s ease, transform 0.75s ease;
 }
 
 .circle-behind {
@@ -121,14 +119,20 @@ input, select, textarea {
 }
 
 
-
-
-
-
-
 /* Ensure the parent div is positioned relatively */
 #intro {
     position: relative;
+}
+
+
+
+
+.color-block {
+	background: linear-gradient(135deg, #639FFF, #2b75ff);
+	
+	width: 300px;
+	height: 100px;
+	position: relative;
 }
 
 
@@ -283,7 +287,8 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.1em;
+		font-size: 1.3em;
+
 	}
 
 	h4 {
@@ -2058,7 +2063,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 3em 3em 1em 7em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
