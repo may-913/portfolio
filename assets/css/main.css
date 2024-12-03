@@ -91,7 +91,7 @@ input, select, textarea {
 
 .photo-container {
     position: relative;
-	left: 50px;
+	left: 2rem;
     width: 200px; /* Matches profile-photo size */
     height: 200px; /* Matches profile-photo size */
 	transition: opacity 0.15s ease, transform 0.75s ease;
@@ -118,13 +118,27 @@ input, select, textarea {
     z-index: 2; /* Keeps the image above the gradient circle */
 }
 
+@media screen and (max-width: 1280px) {
+	.photo-container {
+		display: none;
+	}
+
+
+}
+
+
+div + a {
+	border: none;
+}
 
 /* Ensure the parent div is positioned relatively */
 #intro {
     position: relative;
 }
 
-
+#back-button {
+	height: 25px;
+}
 
 
 .color-block {
@@ -3439,7 +3453,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: var(--navy);
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3830,7 +3844,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: var(--blue-gray);
+				background: var(--indigo);
 			}
 
 			#sidebar nav a:after {
@@ -3926,7 +3940,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: var(--blue);
 						}
 
 		}
