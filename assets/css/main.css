@@ -11,11 +11,12 @@
 	--periwinkle: #006aff;
 	--indigo: #1928ce;
 	--navy: #111a5e;
-	--white: #f7f1ff;
+	--white: #dbd5e3;
 	--deep-navy: #0b1448;
 	--dark-teal: #0d7052;
 	--bright-green: #5dffbb;
 	--blue-gray: #584d8f;
+	--purple: rgb(29, 30, 103);
 
 }
 /* fonts */
@@ -178,7 +179,7 @@ div + a {
 	}
 
 	body {
-		background: var(--navy);
+		background: var(--purple);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -238,11 +239,11 @@ div + a {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: var(--white);
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: var(--white);
 		font-weight: bold;
 	}
 
@@ -255,7 +256,7 @@ div + a {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: var(--white);
 		font-weight: bold;
 		font-family: 'Lato', sans-serif;
 		font-weight: 100;
@@ -3333,7 +3334,7 @@ div + a {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #3739ad;
 		}
 
 		.wrapper.style2-alt {
@@ -3455,7 +3456,7 @@ div + a {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: var(--navy);
+		background-color: var(--purple);
 		cursor: default;
 		padding: 1.75em 2em;
 	}
