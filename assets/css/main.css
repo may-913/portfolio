@@ -48,6 +48,10 @@ body {
 	line-height: 1;
 }
 
+#casestudy {
+	zoom: 0.8;
+}
+
 ol, ul {
 	list-style: none;
 }
