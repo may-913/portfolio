@@ -413,6 +413,27 @@ div + a {
 		text-align: right;
 	}
 
+
+.casestudy {
+	background-color: rgba(9, 10, 67, 0.566);
+	padding: 1rem;
+	margin: 1rem 0;
+	border-radius: .25em;
+
+}
+
+.casestudy div {
+	background-color: rgba(173, 174, 255, 0.549);
+	border-radius: .25em;
+	border: solid 1px #c4cdff;
+}
+
+#heuristic {
+	height:34rem;
+	border-radius: 1em;
+	padding: 1rem;
+}
+
 /* Row */
 
 	.row {
